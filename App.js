@@ -77,7 +77,7 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   list: {
-    marginTop: 20,
+    marginTop: 20,  
     flex: 1
   }
   // item: {
