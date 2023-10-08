@@ -30,7 +30,7 @@ const AddTodo = ({ submitHandler }) => {
           onPress={handleAddItem}
           title="ADD ITEM"
           color="black"
-          fontSize="30"
+          font="30"
         />
       </View>
     </View>

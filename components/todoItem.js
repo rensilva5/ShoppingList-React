@@ -6,7 +6,7 @@ const TodoItem = ({ item, deleteHandler }) => {
   return (
     <TouchableOpacity onPress={() => deleteHandler(item.key)}>
       <View style={styles.item}>
-        <MaterialIcons name="delete" size={24} color="lightblue" />
+        <MaterialIcons name="delete" size={24} color="#327da8" />
         <Text style={styles.itemText}>{item.text}</Text>
       </View>
     </TouchableOpacity>
