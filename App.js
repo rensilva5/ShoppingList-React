@@ -57,7 +57,7 @@ export default function App() {
     >
       <ImageBackground
         source={{
-          uri: "file:///Users/renzosilva/Downloads/pexels-angele-j-128402%20(2).jpg",
+          // uri: "file:///Users/renzosilva/Downloads/pexels-angele-j-128402%20(2).jpg",
         }}
         style={styles.backgroundImage}
       >
@@ -86,8 +86,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     // backgroundColor: "lightblue",
-    paddingTop: 43,
-    paddingHorizontal: 20,
     paddingTop: 43,
     paddingHorizontal: 20,
     // alignItems: "center",

@@ -30,7 +30,7 @@ const AddTodo = ({ submitHandler }) => {
           onPress={handleAddItem}
           title="ADD ITEM"
           color="black"
-          font="30"
+          fontSize="30"
         />
       </View>
     </View>
@@ -43,13 +43,13 @@ const styles = StyleSheet.create({
     paddingHorizontal: 8,
     paddingVertical: 6,
     borderBottomWidth: 1.5,
-    borderBottonColor: "#ddd",
+    borderBottomColor: "#ddd",
     color: "white",
-    font: 20,
+    fontSize: 20,
   },
   button: {
-    // backgroundColor: 'coral',
-    // fontSize: 37,
+    backgroundColor: "coral",
+    fontSize: 37,
   },
   addTodo: {
     backgroundColor: "coral",
