@@ -18,8 +18,11 @@ const AddTodo = ({ submitHandler }) => {
       <TextInput
         style={styles.input}
         placeholder="New item..."
+        placeholderTextColor={"white"}
         onChangeText={changeHandler}
         value={text}
+        color="white"
+        fontSize={22}
       />
       <View style={styles.addTodo}>
         <Button
@@ -41,6 +44,8 @@ const styles = StyleSheet.create({
     paddingVertical: 6,
     borderBottomWidth: 1.5,
     borderBottonColor: "#ddd",
+    color: "white",
+    font: 20,
   },
   button: {
     // backgroundColor: 'coral',
