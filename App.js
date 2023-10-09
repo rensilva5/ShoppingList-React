@@ -56,8 +56,6 @@ export default function App() {
       }}
     >
       <ImageBackground
-        // source={{uri: "file:///Users/renzosilva/Downloads/pexels-angele-j-128402%20(2).jpg",
-        // }}
         source={require("./assets/backgroundImage.jpg")}
         style={styles.backgroundImage}
       >
